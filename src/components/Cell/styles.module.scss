@@ -1,0 +1,28 @@
+.cell {
+  background-color: rgb(57, 179, 46);
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(253, 250, 31);
+  }
+
+  &_open {
+    background-color: rgb(214, 214, 214);
+
+    &:hover {
+      cursor: auto;
+      background-color: rgb(214, 214, 214);
+      pointer-events: none;
+    }
+  }
+
+  &_death {
+    background-color: red !important;
+  }
+}
