@@ -3,8 +3,8 @@ import "./App.css";
 import Playground from "./components/Playground";
 import { PlaygroundModel } from "./model/PlaygroundModel";
 
-import SadAra from "./assets/SadAra.jpg";
-import fancy from "./assets/fancy.png";
+import SadAra from "assets/SadAra.jpg";
+import fancy from "assets/fancy.png";
 
 function App() {
   const [pg, setPg] = useState(() => new PlaygroundModel(10, 10, 8));
